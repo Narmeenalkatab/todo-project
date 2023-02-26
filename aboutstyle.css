@@ -1,0 +1,59 @@
+body{
+    background-color: hsla(27, 48%, 58%, 0.534);
+}
+nav{
+width: 100% ;
+height: 70px;
+    background-color: rgb(121, 25, 25) ;
+padding-top: 0px;
+margin: 0px ;
+}
+
+a{ 
+    font-size: larger;
+       display:inline-block;
+       padding: 20px;
+       margin: left 100px;;
+       color: white ;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+   
+       
+   }
+   
+   a:hover, a:focus{
+       color:black;
+       background-color:rgba(236, 230, 225, 0.596) ;
+       
+   }
+
+   details{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(172, 17, 110);
+
+    float: right;
+    
+   }
+
+   form{
+    padding-left:400px ;
+   }
+
+   h4{
+    font-size: 22px;
+    padding-left:400px ;
+
+
+   }
+   
+
+
+   
+footer{
+
+
+    width: 100% ;
+    height: 100px;
+        background-color: rgb(121, 25, 25) ;
+        background: padding:0px;
+}
