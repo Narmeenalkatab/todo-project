@@ -47,7 +47,7 @@ function codeLevel() {
 }
 
 let courseComplement = prompt(
-  "Do you intend to complet the course till the end ?"
+  "Do you intend to complet the coursee till the end ?"
 );
 
 function courseLevel() {
