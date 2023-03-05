@@ -53,9 +53,7 @@ let courseComplement = prompt(
 function courseLevel() {
   if (courseComplement == "yes" || courseComplement == "no") {
     return courseComplement;
-  }
-
-  if (courseComplement == "") {
+  } else if (courseComplement == "") {
     return "invalid";
   } else {
     return "";
