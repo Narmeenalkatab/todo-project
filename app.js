@@ -1,7 +1,3 @@
-console.log("hello user");
-
-
-
 let name = prompt("What is your name?");
 
 let gender = prompt("What is your gender?");
@@ -31,7 +27,7 @@ let codeingLove = prompt("Do you love coding?");
 function codeLove() {
   if (codeingLove == "yes" || codeingLove == "no") {
     return codeingLove;
-  } else if (codeingLove == null) {
+  } else if (codeingLove == "") {
     return "invalid";
   } else {
     return "";
@@ -43,7 +39,7 @@ let codeingLevel = prompt("Do you think coding is hard?");
 function codeLevel() {
   if (codeingLevel == "yes" || codeingLevel == "no") {
     return codeingLevel;
-  } else if (codingLevel == null) {
+  } else if (codingLevel == "") {
     return "invalid";
   } else {
     return "";
@@ -59,7 +55,7 @@ function courseLevel() {
     return courseComplement;
   }
 
-  if (courseComplement == null) {
+  if (courseComplement == "") {
     return "invalid";
   } else {
     return "";
