@@ -39,7 +39,7 @@ let codeingLevel = prompt("Do you think coding is hard?");
 function codeLevel() {
   if (codeingLevel == "yes" || codeingLevel == "no") {
     return codeingLevel;
-  } else if (codingLevel == "") {
+  } else if (codeingLevel == "") {
     return "invalid";
   } else {
     return "";
