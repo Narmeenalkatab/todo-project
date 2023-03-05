@@ -1,3 +1,7 @@
+console.log("hello user");
+
+
+
 let name = prompt("What is your name?");
 
 let gender = prompt("What is your gender?");
